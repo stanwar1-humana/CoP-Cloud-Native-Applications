@@ -17,7 +17,7 @@ jobs:
           echo "::set-output name=files::$(printf '"%s" ' *.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/result.doc readme.md
+          args: --output=output/result.docx readme.md
       - uses: actions/upload-artifact@master
         with:
           name: output
