@@ -1,10 +1,16 @@
 :imagesdir: pics/
-== Included Section
+== Sample Pattern
+
+=== *v 0.2*
 
 Sample Asciidoc for pattern artifacts
 
 --
 This is a sample image - 1
+
 image::MessageBroker_logical_v7.png[sample broker image]
 
+This is a sample image - 2
+
+image::Test Image.png[Test Image]
 --
